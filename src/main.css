@@ -1,0 +1,153 @@
+.view-container{
+	background-color : #cecece;
+	padding: .5em;
+}
+
+.container{
+	align-items: baseline;
+}
+
+.width-auto{
+	width : auto !important;
+}
+
+.padding-0{
+	padding: 0 !important;
+}
+
+.mb-5px{
+	margin-bottom : 5px;
+}
+
+.row{
+	display : flex;
+}
+
+.col-3{
+	width:25%;
+}
+
+.col-4{
+	width : 100%;
+}
+
+.col-6{
+	width : 50%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.d-flex{
+	display : flex;
+}
+
+.direction-rev{
+	flex-direction : row-reverse;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.card-container{
+	display : grid;
+	grid-gap : 20px 20px;
+	grid-template-columns : auto auto auto;
+}
+
+.item-button{
+	display : flex;
+	justify-content: space-between;
+	text-align : center;
+}
+
+.card{
+	background-color : #c0c0c0;
+}
+
+.caption{	
+	padding : 1em;
+}
+
+.btn{
+	border: 1px;
+	border-radius : 3px;
+	height : 30px;
+	width : 80px;
+	font-size : 12px ;
+	font-style : sans-serif;
+	font-weight : 600;
+	padding : 2px 3px;
+}
+
+.btn-primary{
+	background-color : blue;
+	color : white;
+}
+
+.btn-block{	
+	width: 100%;	
+	display:flex;
+	align-items :center;
+	justify-content: center
+}
+
+.img-thumbnail{
+	width:100px;
+	height:100px;
+}
+
+.btn-success{
+	background-color : green;
+	color : white;
+}
+
+.btn-default{
+	background-color : white;
+	color : black;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thumbnail{
+	padding : 1.5em 3em;
+}
+
+.baseln{
+	align-items : baseline;
+}
+
+.column-container{
+	display : flex;
+	justify-content: space-between;
+	padding : .5em;
+	align-items : center;
+}
+
+.column-container:nth-child(odd){
+	background-color : #cecece;
+}
+
+.details-title p{
+	margin : 0px;
+}
+
+.sidebar-container{
+	background-color: white;
+	margin-left : 20px;
+	padding: 1em;
+}
+
+.input-group-btn {
+	border: 1px solid #0c0c0c;
+}
+.input-group-btn .btn{
+	align-items: center;
+}
+
+.deleteX{
+	cursor : pointer;
+}
